@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="CameraUICrashTest">
+    <configurations>
+      <configuration name="CameraUICrashTest" target-platform="Mobile" pure-as="true" main-class="CameraUICrashTest" output-file="CameraUICrashTest.swf" output-folder="$MODULE_DIR$/out/production/CameraUICrashTest">
+        <dependencies target-player="26.0">
+          <entries>
+            <entry library-id="d92742ed-e448-4b41-b22d-f18c3fba3bdd">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AdobeAIRSDK_26" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android package-file-name="CameraUICrashTest" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/TestCameraUI-app.xml" package-file-name="CameraUICrashTest">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/Default-375w-667h@2x.png" path-in-package="Default-375w-667h@2x.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/Default-414w-736h@3x.png" path-in-package="Default-414w-736h@3x.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/Default-568h@2x.png" path-in-package="Default-568h@2x.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/Default.png" path-in-package="Default.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/icons" path-in-package="icons" />
+          </files-to-package>
+          <AirSigningOptions sdk="D:/Dev_storage/iOS/iPhoneOS10.3.sdk" keystore-path="$MODULE_DIR$/../../../iOS/Active3db/dev/Active3DB_iOS_Development_Certificate_2017.p12" provisioning-profile-path="$MODULE_DIR$/../../../iOS/Active3db/dev/FinishLine_iOS_development.mobileprovision" />
+        </packaging-ios>
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AdobeAIRSDK_26" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="d92742ed-e448-4b41-b22d-f18c3fba3bdd" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
